@@ -108,6 +108,8 @@ Want to get out there to compete and win prizes? Check out the [Quick Start Leag
 
 ## (Optional) Deploying Your First Battlesnake with Heroku
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 1. [Fork this repo](https://github.com/BattlesnakeOfficial/starter-snake-java/fork) into your GitHub Account.
 
 2. [Clone your forked repo](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) into your local environment.
