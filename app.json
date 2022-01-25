@@ -10,6 +10,6 @@
 		}
 	],
 	"scripts": {
-		"postdeploy": "curl -Ls https://sh.jbang.dev | bash -s - build main.java"
+		"postdeploy": "curl -Ls https://sh.jbang.dev | bash -s - build snake.java"
 	}
 }
