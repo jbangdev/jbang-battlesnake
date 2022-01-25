@@ -4,8 +4,12 @@
 	"repository": "https://github.com/jbangdev/jbang-battlesnake",
 	"keywords": ["snake", "battlesnake", "java", "jbang"],
 	"logo": "https://rawcdn.githack.com/jbangdev/jbang/106be113a1126c2973a6937c3d6bb16c282459b5/images/jbang_icon.svg",
+	"buildpacks": [
+		{
+			"url":	"JVM"
+		}
+	],
 	"scripts": {
 		"postdeploy": "curl -Ls https://sh.jbang.dev | bash -s - build main.java"
-	      }
-
+	}
 }
