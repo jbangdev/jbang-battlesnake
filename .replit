@@ -1,2 +1,0 @@
-language = "java"
-run = "jbang snake.java"
