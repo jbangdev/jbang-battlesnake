@@ -1,13 +1,13 @@
 # A simple [Battlesnake](http://play.battlesnake.com) written in Java using JBang and Quarkus.
 
-This is a basic implementation of the [Battlesnake API](https://docs.battlesnake.com/snake-api). It's a great starting point for anyone wanting to program their first Battlesnake using Java. It comes ready to use with [Replit.com](https://replit.com) and provides instructions below for getting started. 
-
+This is a basic implementation of the [Battlesnake API](https://docs.battlesnake.com/snake-api). It's a great starting point for anyone wanting to program their first Battlesnake using Java. It comes ready to use with [Replit.com](https://replit.com) and provides instructions below for getting started. It can also be deployed to [Heroku](https://heroku.com), or any other cloud provider you'd like.
 
 ### Technologies
 
 * [Java 17](https://adoptium.net/)
 * [JBang](https://jbang.dev/downloads)
 * [Quarkus](https://quarkus.io)
+* [Heroku](https://www.heroku.com/) (optional)
 
 ## Quickstart
 
@@ -106,7 +106,50 @@ Want to get out there to compete and win prizes? Check out the [Quick Start Leag
  
 ---
 
+## (Optional) Deploying Your First Battlesnake with Heroku
 
+1. [Fork this repo](https://github.com/BattlesnakeOfficial/starter-snake-java/fork) into your GitHub Account.
+
+2. [Clone your forked repo](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) into your local environment.
+    ```shell
+    git clone git@github.com:[YOUR-GITHUB-USERNAME]/starter-snake-java.git
+    ```
+
+3. [Create a new Heroku app](https://devcenter.heroku.com/articles/creating-apps) to run your Battlesnake.
+    ```shell
+    heroku create [YOUR-APP-NAME]
+    ```
+
+4. [Deploy your Battlesnake code to Heroku](https://devcenter.heroku.com/articles/git#deploying-code).
+    ```shell
+    git push heroku master
+    ```
+
+5. Open your new Heroku app in your browser.
+    ```shell
+    heroku open
+    ```
+    If everything was successful, you should see the following text:
+    ```
+    {"tailType":"default","color":"#888888","headType":"default","author":"","apiversion":"1"}
+    ```
+
+6. Optionally, you can view your server logs using the [Heroku logs command](https://devcenter.heroku.com/articles/logging#log-retrieval) `heroku logs --tail`. The `--tail` option will show a live feed of your logs in real-time.
+
+**At this point your Battlesnake is live and ready to enter games!**
+
+### (Optional) Updating Your Battlesnake with Heroku
+
+After making changes, commit them using git and deploy your changes to Heroku.
+```shell
+git add .
+git commit -m "update my battlesnake's appearance"
+git push heroku master
+```
+
+Once Heroku has updated you can [create a new game](https://play.battlesnake.com/account/games/create/) with your Battlesnake to view your latest changes in action.
+
+**At this point you should feel comfortable making changes to your code and deploying those changes to Heroku!**
 ## Resources
 
 All documentation is available at [docs.battlesnake.com](https://docs.battlesnake.com), including detailed Guides, API References, and Tips.
