@@ -1,6 +1,6 @@
 # A simple [Battlesnake](http://play.battlesnake.com) written in Java using JBang and Quarkus.
 
-This is a basic implementation of the [Battlesnake API](https://docs.battlesnake.com/snake-api). It's a great starting point for anyone wanting to program their first Battlesnake using Java. It comes ready to use with [Replit.com](https://replit.com) and provides instructions below for getting started. It can also be deployed to [Heroku](https://heroku.com), or any other cloud provider you'd like.
+This is a basic implementation of the [Battlesnake API](https://docs.battlesnake.com/references/api). It's a great starting point for anyone wanting to program their first Battlesnake using Java. It comes ready to use with [Replit.com](https://replit.com) and provides instructions below for getting started. It can also be deployed to [Heroku](https://heroku.com), or any other cloud provider you'd like.
 
 ### Technologies
 
